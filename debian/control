@@ -1,0 +1,12 @@
+Source: ros-kinetic-oros-tools-examples
+Section: misc
+Priority: extra
+Maintainer: Easymov Robotics <dev@easymov.fr>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-oros-tools-examples
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-oros-tools, ros-kinetic-turtlebot, ros-kinetic-turtlebot-navigation, ros-kinetic-turtlebot-stage
+Description: The oros_tools_examples package
