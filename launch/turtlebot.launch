@@ -8,6 +8,6 @@
     <arg name="password" value="$(arg password)" />
   </include>
 
-  <include file="$(find turtlebot_stdr)/launch/turtlebot_in_stdr.launch" />
+  <include file="$(find turtlebot_stage)/launch/turtlebot_in_stage.launch" />
 
 </launch>
